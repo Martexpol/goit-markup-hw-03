@@ -79,8 +79,8 @@ li {
     Line-Height: 1.5;
     letter-spacing: 0.02em;
 }
-
-.nav-link:active {
+.nav-link:hover,
+.nav-link:focus {
     text-decoration: none;
     color: var(--ocean);
     font-family: Roboto;
@@ -176,6 +176,5 @@ cursor: pointer;
 /* lists */
 
 .ul-list {
-
     list-style: none;
 }
