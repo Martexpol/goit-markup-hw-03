@@ -20,6 +20,15 @@ body {
     letter-spacing: 0.02em;
 }
 
+p .body-text {
+        font-family: 'Roboto', sans-serif;
+        color: var(--slate);
+        background-color: white;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+
 footer {
     background-color: var(--navy-blue);
     color: var(--cloud)
@@ -29,11 +38,19 @@ h1 {
 font-weight: bold;
 font-size: 56px ;
 Line-Height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
 }
 
-h2 {
+.header2 {
 font-weight: bold;
 font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+color: var(--navy-blue);
+text-align: center;
+text-transform: capitalize;
+
 }
 
 h3 {
@@ -113,15 +130,20 @@ li {
 
 
 /* Buttons */
-    button {
+    .standard-button {
         background-color: var(--iris);
         border: 1px solid var(--ocean);
         color: #ffffff;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
 cursor: pointer;
     }
 
-    button:focus,
-    button:hover {
+    .standard-button:focus,
+    .standard-button:hover {
         background-color: var(--ocean);
         color: #ffffff;
     }
@@ -151,3 +173,9 @@ cursor: pointer;
     }
 
 
+/* lists */
+
+.ul-list {
+
+    list-style: none;
+}
