@@ -121,7 +121,8 @@ color: var(--navy-blue);
 
 .link {
     text-decoration: none;
-    }
+    color: var(--slate);
+}
 
 
 .logo {
