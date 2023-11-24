@@ -31,8 +31,11 @@ body {
 
 .footer {
     background-color: var(--navy-blue);
-    color: var(--cloud)
+    color: var(--cloud);
 }
+
+.footer-text { color: var(--cloud);}
+
 
 .header-one {
 font-weight: bold;
@@ -79,7 +82,6 @@ color: var(--navy-blue);
 
 .nav-link {
     text-decoration: none;
-
     color: var(--navy-blue);
     Font-Weight: 500;
     font-size: 16px;
@@ -121,8 +123,7 @@ color: var(--navy-blue);
 
 .link {
     text-decoration: none;
-    color: var(--slate);
-}
+    }
 
 
 .logo {
