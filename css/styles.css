@@ -78,7 +78,6 @@ li {
 /* Navigation */
 
 
-
 .nav-link {
     text-decoration: none;
 
@@ -197,6 +196,6 @@ cursor: pointer;
 
 /* lists */
 
-ul {
+.default-list .link {
     list-style: none;
 }
