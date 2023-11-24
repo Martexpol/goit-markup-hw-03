@@ -41,14 +41,15 @@ font-weight: 500;
 font-size: 20px;
 }
 
+ul {
+    list-style: none;
+}
+
 li {
     background-color: white;
 }
 
 /* Navigation */
-.list-wo-style {
-    list-style: none;
-}
 
 .nav-link {
     text-decoration: none;
