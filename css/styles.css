@@ -196,6 +196,6 @@ cursor: pointer;
 
 /* lists */
 
-.default-list .link {
+.default-list {
     list-style: none;
 }
