@@ -76,10 +76,10 @@ font-size: 20px;
 }
 
 
-.image-portfolio {
+/* .image-portfolio {
     width:360px;
     height:300px;
-    }
+    } */
 
     button {
         background-color: var(--iris);
