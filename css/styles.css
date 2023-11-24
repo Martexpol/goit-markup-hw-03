@@ -71,9 +71,7 @@ color: var(--navy-blue);
 
 
 
-li {
-    background-color: white;
-}
+
 
 /* Navigation */
 
@@ -188,11 +186,14 @@ cursor: pointer;
         background-color: var(--cloud);
     }
 
-    .backgound-navy {
+    .background-navy {
         background-color: var(--navy-blue);
         color: white;
     }
 
+        .background-white {
+            background-color: white;
+        }
 
 /* lists */
 
