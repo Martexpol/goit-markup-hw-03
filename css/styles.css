@@ -77,9 +77,7 @@ li {
 
 /* Navigation */
 
-.nav-list {
-    list-style: none;
-}
+
 
 .nav-link {
     text-decoration: none;
@@ -90,6 +88,11 @@ li {
     Line-Height: 1.5;
     letter-spacing: 0.02em;
 }
+
+.nav-list .nav-link{
+    list-style: none;
+}
+
 .nav-link:hover,
 .nav-link:focus {
     text-decoration: none;
