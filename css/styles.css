@@ -33,7 +33,7 @@ p .body-text {
     color: var(--cloud)
 }
 
-h1 {
+.header1 {
 font-weight: bold;
 font-size: 56px ;
 Line-Height: 1.07;
@@ -60,7 +60,7 @@ text-transform: capitalize;
 
 }
 
-h3 {
+.header3-index {
 font-weight: 500;
 font-size: 20px;
 }
@@ -172,7 +172,7 @@ cursor: pointer;
     .menu-button:focus,
     .menu-button:hover,
     .menu-button:active {
-    background-color: var(--iris);
+    background-color: var(--ocean);
     color: white;
     }
 
