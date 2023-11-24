@@ -4,18 +4,20 @@
 --navy-blue: #2E2F42;
 --slate: #434455;
 --cloud: #F4F4FD;
+--cornflower: #E7E9FC;
 
 }
 
 
 
 body {
-font-family: 'Roboto';
-color: var(--slate);
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
+    font-family: 'Roboto', sans-serif;
+    color: var(--slate);
+    background-color: white     ;
+    /* font-weight: 400; */
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 footer {
@@ -75,15 +77,18 @@ font-size: 20px;
 
 
 .image-portfolio {
-    width:360;
-    height:300;
+    width:360px;
+    height:300px;
     }
 
     button {
         background-color: var(--iris);
+        border: 1px solid var(--ocean);
         color: #ffffff;
+cursor: pointer;
     }
 
+    button:focus,
     button:hover {
         background-color: var(--ocean);
         color: #ffffff;
@@ -109,11 +114,25 @@ font-size: 20px;
     .menu-button {
     background-color: var(--cloud);
     color: var(--iris);
-
+    border: 1px solid var(--cornflower);
+    cursor: pointer;
     }
 
     .menu-button:active {
     background-color: var(--iris);
     color: white;
+    }
+
+    .background-cloud{
+        background-color: var(--cloud);
+    }
+
+    .backgound-navy {
+        background-color: var(--navy-blue);
+        color: white;
+    }
+
+    li {
+        background-color: white;
     }
 
