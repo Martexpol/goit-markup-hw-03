@@ -33,7 +33,7 @@ p .body-text {
     color: var(--cloud)
 }
 
-.header1 {
+.header-one {
 font-weight: bold;
 font-size: 56px ;
 Line-Height: 1.07;
@@ -41,7 +41,7 @@ text-align: center;
 letter-spacing: 0.02em;
 }
 
-.header2 {
+.header-two {
 font-weight: bold;
 font-size: 36px;
 line-height: 1.11;
@@ -51,7 +51,7 @@ text-align: center;
 text-transform: capitalize;
 }
 
-.header2-portfolio {
+.header-two-portfolio {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -60,7 +60,7 @@ text-transform: capitalize;
 
 }
 
-.header3-index {
+.header-three-index {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
