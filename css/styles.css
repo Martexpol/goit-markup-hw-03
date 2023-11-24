@@ -190,6 +190,6 @@ cursor: pointer;
 
 /* lists */
 
-.ul-list {
+ul .ul-list {
     list-style: none;
 }
