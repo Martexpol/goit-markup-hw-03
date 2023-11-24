@@ -41,6 +41,11 @@ font-weight: 500;
 font-size: 20px;
 }
 
+li {
+    background-color: white;
+}
+
+/* Navigation */
 .nav-list {
     list-style: none;
 }
@@ -80,9 +85,31 @@ font-size: 20px;
     color:var(--ocean);
 }
 
+.link {
+    text-decoration: none;
+}
+
+.logo {
+
+    text-transform: uppercase;
+    color: var(--iris);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.logo-light {
+    color: var(--cloud);
+}
+
+.logo-dark {
+    color: var(--navy-blue);
+}
 
 
-
+/* Buttons */
     button {
         background-color: var(--iris);
         border: 1px solid var(--ocean);
@@ -96,29 +123,7 @@ cursor: pointer;
         color: #ffffff;
     }
 
-    .link {
-        text-decoration: none;
-    }
-
-    .logo {
-        
-        text-transform: uppercase;
-        color: var(--iris);
-        font-family: 'Raleway', sans-serif;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-    }
-
-    .logo-light {
-        color: var(--cloud);
-    }
-
-    .logo-dark {
-        color: var(--navy-blue);
-    }
-
+    
     .menu-button {
     background-color: var(--cloud);
     color: var(--iris);
@@ -131,6 +136,8 @@ cursor: pointer;
     color: white;
     }
 
+/* backgrounds */
+
     .background-cloud{
         background-color: var(--cloud);
     }
@@ -140,7 +147,4 @@ cursor: pointer;
         color: white;
     }
 
-    li {
-        background-color: white;
-    }
 
