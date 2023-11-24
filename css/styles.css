@@ -29,7 +29,7 @@ p .body-text {
         letter-spacing: 0.02em;
     }
 
-footer {
+.footer {
     background-color: var(--navy-blue);
     color: var(--cloud)
 }
