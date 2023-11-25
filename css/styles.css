@@ -175,7 +175,7 @@ background-color: var(--cloud);
 .background-navy {
 background-color: var(--navy-blue);
 color: white;
-}
+} 
 
 .background-white {
 background-color: white;
@@ -186,3 +186,4 @@ background-color: white;
 .list {
 list-style: none;
 }
+
