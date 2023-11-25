@@ -73,7 +73,7 @@ Line-Height: 1.5;
 letter-spacing: 0.02em;
 }
 
-.nav-list .nav-link{
+.nav-list .nav-link {
 list-style: none;
 }
 
@@ -168,7 +168,7 @@ color: white;
 
 /* backgrounds */
 
-.background-cloud{
+.background-cloud {
 background-color: var(--cloud);
 }
 
