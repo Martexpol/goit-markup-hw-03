@@ -5,37 +5,35 @@
 --slate: #434455;
 --cloud: #F4F4FD;
 --cornflower: #E7E9FC;
-
 }
 
-
-
 body {
-    font-family: 'Roboto', sans-serif;
-    color: var(--slate);
-    background-color: white;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+font-family: 'Roboto', sans-serif;
+color: var(--slate);
+background-color: white;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 
 .body-text {
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    color: var(--slate);
-    background-color: white;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    }
-
-.footer {
-    background-color: var(--navy-blue);
-    color: var(--cloud);
+text-decoration: none;
+font-family: 'Roboto', sans-serif;
+color: var(--slate);
+background-color: white;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 
-.footer-text { color: var(--cloud);}
+.footer {
+background-color: var(--navy-blue);
+color: var(--cloud);
+}
 
+.footer-text { 
+color: var(--cloud);
+}
 
 .header-one {
 font-weight: bold;
@@ -55,152 +53,136 @@ text-align: center;
 text-transform: capitalize;
 }
 
-.header-two-portfolio {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);
-
-}
-
+.header-two-portfolio,
 .header-three-index {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--navy-blue);
-
 }
-
-
-
-
 
 /* Navigation */
 
-
 .nav-link {
-    text-decoration: none;
-    color: var(--navy-blue);
-    Font-Weight: 500;
-    font-size: 16px;
-    Line-Height: 1.5;
-    letter-spacing: 0.02em;
+text-decoration: none;
+color: var(--navy-blue);
+Font-Weight: 500;
+font-size: 16px;
+Line-Height: 1.5;
+letter-spacing: 0.02em;
 }
 
 .nav-list .nav-link{
-    list-style: none;
+list-style: none;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-    text-decoration: none;
-    color: var(--ocean);
-    font-family: Roboto;
-    Font-Weight: 500;
-    font-size: 16px;
-    Line-Height: 1.5;
-    }
+text-decoration: none;
+color: var(--ocean);
+font-family: Roboto, sans-serif;
+Font-Weight: 500;
+font-size: 16px;
+Line-Height: 1.5;
+}
 
 .nav-address {
-    text-decoration: none;
-    color: var(--slate);
-    font-family:'Roboto';
-    font-weight: 400;
-    font-size: 16px;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+text-decoration: none;
+color: var(--slate);
+font-family:'Roboto',sans-serif;
+font-weight: 400;
+font-size: 16px;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 
 .nav-address:focus,
 .nav-address:hover,
 .nav-address:active {
-    text-decoration: none;
-    color:var(--ocean);
+text-decoration: none;
+color:var(--ocean);
 }
 
 .link {
-    text-decoration: none;
-    }
-
+text-decoration: none;
+}
 
 .logo {
-
-    text-transform: uppercase;
-    color: var(--iris);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--iris);
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
 }
 
 .logo-light {
-    color: var(--cloud);
+color: var(--cloud);
 }
 
 .logo-dark {
-    color: var(--navy-blue);
+color: var(--navy-blue);
 }
 
-
 /* Buttons */
-    .standard-button {
-        background-color: var(--iris);
-        border: 1px solid var(--ocean);
-        color: #ffffff;
-        font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.04em;
+
+.standard-button {
+background-color: var(--iris);
+border: 1px solid var(--ocean);
+color: #ffffff;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
 cursor: pointer;
-    }
+}
 
-    .standard-button:focus,
-    .standard-button:hover {
-        background-color: var(--ocean);
-        color: #ffffff;
-    }
+.standard-button:focus,
+.standard-button:hover {
+background-color: var(--ocean);
+color: #ffffff;
+}
 
-    
-    .menu-button {
-    background-color: var(--cloud);
-    color: var(--iris);
-    border: 1px solid var(--cornflower);
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    }
-    .menu-button:focus,
-    .menu-button:hover,
-    .menu-button:active {
-    background-color: var(--ocean);
-    color: white;
-    }
+.menu-button {
+background-color: var(--cloud);
+color: var(--iris);
+border: 1px solid var(--cornflower);
+cursor: pointer;
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+}
+
+.menu-button:focus,
+.menu-button:hover,
+.menu-button:active {
+background-color: var(--ocean);
+color: white;
+}
 
 /* backgrounds */
 
-    .background-cloud{
-        background-color: var(--cloud);
-    }
+.background-cloud{
+background-color: var(--cloud);
+}
 
-    .background-navy {
-        background-color: var(--navy-blue);
-        color: white;
-    }
+.background-navy {
+background-color: var(--navy-blue);
+color: white;
+}
 
-        .background-white {
-            background-color: white;
-        }
+.background-white {
+background-color: white;
+}
 
 /* lists */
 
 .list {
-    list-style: none;
+list-style: none;
 }
