@@ -4,7 +4,10 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Webstudio - Main Page</title>
-
+		<!-- normalizator -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -14,45 +17,54 @@
 	</head>
 
 	<body>
+		<!-- header -->
 		<header>
 			<nav class="nav-list">
-				<a href="./index.html" class="logo link"
+				<a href="./index.html" class="logo link nav-box"
 					>Web<span class="logo-dark">Studio</span></a
 				>
 				<ul class="list">
-					<li><a href="./index.html" class="nav-link link">Studio</a></li>
 					<li>
-						<a href="./portfolio.html" class="nav-link link">Portfolio</a>
+						<a href="./index.html" class="nav-link link nav-box">Studio</a>
 					</li>
-					<li><a href="" class="nav-link link">Contacts</a></li>
+					<li>
+						<a href="./portfolio.html" class="nav-link link nav-box"
+							>Portfolio</a
+						>
+					</li>
+					<li><a href="" class="nav-link link nav-box">Contacts</a></li>
 				</ul>
-			</nav>
 
-			<address class="nav-address">
-				<ul class="list">
-					<li>
-						<a href="mailto:info@devstudio.com" class="nav-address link"
-							>info@devstudio.com</a
-						>
-					</li>
-					<li>
-						<a href="tel:+110001111111" class="nav-address link"
-							>+11 (000) 111-11-11</a
-						>
-					</li>
-				</ul>
-			</address>
+				<address class="nav-address">
+					<ul class="list">
+						<li>
+							<a
+								href="mailto:info@devstudio.com"
+								class="nav-address link nav-box"
+								>info@devstudio.com</a
+							>
+						</li>
+						<li>
+							<a href="tel:+110001111111" class="nav-address link nav-box"
+								>+11 (000) 111-11-11</a
+							>
+						</li>
+					</ul>
+				</address>
+			</nav>
 		</header>
 
 		<main>
-			<section class="background-navy">
+			<!-- section 1 - solutions -->
+			<section class="container background-navy solutions-container">
 				<h1 class="header-one">Effective Solutions for Your Business</h1>
 				<button type="button" class="standard-button">Order Service</button>
 			</section>
 
-			<section>
+			<!-- section 2 Misja?-->
+			<section class="container">
 				<h2 class="header-two">Naglowek</h2>
-				<ul class="list">
+				<ul class="list index-container">
 					<li>
 						<h3 class="header-three-index">Strategy</h3>
 						<p class="body-text">
@@ -84,9 +96,10 @@
 				</ul>
 			</section>
 
-			<section>
+			<!-- section 3 - What are we doing-->
+			<section class="container">
 				<h2 class="header-two">What are we doing</h2>
-				<ul class="list">
+				<ul class="list index-container">
 					<li>
 						<img
 							src="./images/screen.jpg"
@@ -111,11 +124,12 @@
 				</ul>
 			</section>
 
-			<section class="background-cloud">
+			<!-- Section 4 - Our Team -->
+			<section class="background-cloud container">
 				<h2 class="header-two">Our Team</h2>
 
-				<ul class="list">
-					<li class="background-white">
+				<ul class="list index-container">
+					<li class="team-card">
 						<img
 							src="./images/mark.jpg"
 							alt="Mark Guerrero"
@@ -125,7 +139,7 @@
 						<p class="body-text">Product Designer</p>
 					</li>
 
-					<li class="background-white">
+					<li class="team-card">
 						<img
 							src="./images/tom.jpg"
 							alt="Tom Ford"
@@ -134,7 +148,7 @@
 						<h3 class="header-three-index">Tom Ford</h3>
 						<p class="body-text">Frontend Developer</p>
 					</li>
-					<li class="background-white">
+					<li class="team-card">
 						<img
 							src="./images/camila.jpg"
 							alt="Camila Garcia"
@@ -143,7 +157,7 @@
 						<h3 class="header-three-index">Camila Garcia</h3>
 						<p class="body-text">Marketing</p>
 					</li>
-					<li class="background-white">
+					<li class="team-card">
 						<img
 							src="./images/daniel.jpg"
 							alt="Daniel Wilson"
@@ -156,7 +170,8 @@
 			</section>
 		</main>
 
-		<footer class="footer">
+		<!-- footer -->
+		<footer class="footer container">
 			<a href="./index.html" class="logo link"
 				>Web<span class="logo-light">Studio</span></a
 			>

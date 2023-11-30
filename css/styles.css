@@ -1,189 +1,255 @@
 :root {
---iris: #4D5AE5;
---ocean: #404BBF;
---navy-blue: #2E2F42;
---slate: #434455;
---cloud: #F4F4FD;
---cornflower: #E7E9FC;
+	--iris: #4d5ae5;
+	--ocean: #404bbf;
+	--navy-blue: #2e2f42;
+	--slate: #434455;
+	--cloud: #f4f4fd;
+	--cornflower: #e7e9fc;
 }
 
 body {
-font-family: 'Roboto', sans-serif;
-color: var(--slate);
-background-color: white;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
+	font-family: "Roboto", sans-serif;
+	color: var(--slate);
+	background-color: white;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
 }
 
 .body-text {
-text-decoration: none;
-font-family: 'Roboto', sans-serif;
-color: var(--slate);
-background-color: white;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
+	text-decoration: none;
+	font-family: "Roboto", sans-serif;
+	color: var(--slate);
+	background-color: white;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	padding: 0 16px;
 }
 
 .footer {
-background-color: var(--navy-blue);
-color: var(--cloud);
+	background-color: var(--navy-blue);
+	color: var(--cloud);
 }
 
-.footer-text { 
-color: var(--cloud);
+.footer-text {
+	color: var(--cloud);
 }
 
 .header-one {
-font-weight: bold;
-font-size: 56px ;
-Line-Height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
+	font-weight: bold;
+	font-size: 56px;
+	line-height: 1.07;
+	text-align: center;
+	letter-spacing: 0.02em;
 }
 
+h1 {
+	color: white;
+}
 .header-two {
-font-weight: bold;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-color: var(--navy-blue);
-text-align: center;
-text-transform: capitalize;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 1.11;
+	letter-spacing: 0.02em;
+	color: var(--navy-blue);
+	text-align: center;
+	text-transform: capitalize;
 }
 
 .header-two-portfolio,
 .header-three-index {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--navy-blue);
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--navy-blue);
+	padding: 0 16px;
 }
 
 /* Navigation */
 
-.nav-link {
-text-decoration: none;
-color: var(--navy-blue);
-Font-Weight: 500;
-font-size: 16px;
-Line-Height: 1.5;
-letter-spacing: 0.02em;
+.nav-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	list-style: none;
 }
 
+.nav-link {
+	text-decoration: none;
+	color: var(--navy-blue);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	list-style-type: none;
+}
+a .nav-link,
 .nav-list .nav-link {
-list-style: none;
+	list-style: none;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-text-decoration: none;
-color: var(--ocean);
-font-family: Roboto, sans-serif;
-Font-Weight: 500;
-font-size: 16px;
-Line-Height: 1.5;
+	text-decoration: none;
+	color: var(--ocean);
+	font-family: Roboto, sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
 }
 
 .nav-address {
-text-decoration: none;
-color: var(--slate);
-font-family:'Roboto',sans-serif;
-font-weight: 400;
-font-size: 16px;
-font-style: normal;
-line-height: 1.5;
-letter-spacing: 0.02em;
+	text-decoration: none;
+	color: var(--slate);
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
 }
 
 .nav-address:focus,
 .nav-address:hover,
 .nav-address:active {
-text-decoration: none;
-color:var(--ocean);
+	text-decoration: none;
+	color: var(--ocean);
 }
 
 .link {
-text-decoration: none;
+	text-decoration: none;
 }
 
 .logo {
-text-transform: uppercase;
-color: var(--iris);
-font-family: 'Raleway', sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--iris);
+	font-family: "Raleway", sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
 }
 
 .logo-light {
-color: var(--cloud);
+	color: var(--cloud);
 }
 
 .logo-dark {
-color: var(--navy-blue);
+	color: var(--navy-blue);
 }
 
 /* Buttons */
 
 .standard-button {
-background-color: var(--iris);
-border: 1px solid var(--ocean);
-color: #ffffff;
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-cursor: pointer;
+	background-color: var(--iris);
+	border: 1px solid var(--ocean);
+	color: #ffffff;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	cursor: pointer;
 }
 
 .standard-button:focus,
 .standard-button:hover {
-background-color: var(--ocean);
-color: #ffffff;
+	background-color: var(--ocean);
+	color: #ffffff;
 }
 
 .menu-button {
-background-color: var(--cloud);
-color: var(--iris);
-border: 1px solid var(--cornflower);
-cursor: pointer;
-font-family: 'Roboto', sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
+	background-color: var(--cloud);
+	color: var(--iris);
+	border: 1px solid var(--cornflower);
+	cursor: pointer;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	margin: 12px;
+	height: 48px;
 }
 
 .menu-button:focus,
 .menu-button:hover,
 .menu-button:active {
-background-color: var(--ocean);
-color: white;
+	background-color: var(--ocean);
+	color: white;
 }
 
 /* backgrounds */
 
 .background-cloud {
-background-color: var(--cloud);
+	background-color: var(--cloud);
 }
 
 .background-navy {
-background-color: var(--navy-blue);
-color: white;
-} 
-
-.background-white {
-background-color: white;
+	background-color: var(--navy-blue);
+	color: white;
 }
 
 /* lists */
 
 .list {
-list-style: none;
+	list-style: none;
 }
 
+/* flexbox */
+
+.container {
+	display: flex;
+	width: 1158px;
+	flex-direction: column;
+}
+
+.header-container {
+	border-bottom: 1px solid var(--cornflower);
+}
+
+/* .nav-box {
+	padding: auto;
+	margin: 12px;
+	list-style: none;
+} */
+
+.portfolio-container-cards {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 0;
+}
+
+.portfolio-card {
+	margin: 12px;
+	text-align: left;
+	border: 1px solid var(--cornflower);
+	width: 360px;
+}
+
+.portfolio-container-buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 586px;
+}
+
+.solutions-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.index-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.team-card {
+	background-color: white;
+}
