@@ -328,8 +328,10 @@ a .nav-link,
 .portfolio-container-buttons {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: center;
 	width: 586px;
+	gap: 24px;
+	margin-bottom: 72px;
 }
 
 .solutions-container {
@@ -389,4 +391,8 @@ a .nav-link,
 
 .sec-padding {
 	padding: 120px 0;
+}
+
+.portfolio-sec {
+	padding: 96px 0 120px 0;
 }
