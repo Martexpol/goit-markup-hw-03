@@ -141,11 +141,15 @@ a .nav-link,
 	line-height: 1.5;
 }
 
-.nav-address-list {
+.address {
 	display: flex;
+	flex-direction: row;
 	gap: 40px;
+	list-style: none;
+	justify-content: space-between;
 }
-.nav-address {
+
+.address-link {
 	text-decoration: none;
 	color: var(--slate);
 	font-family: "Roboto", sans-serif;
@@ -154,13 +158,11 @@ a .nav-link,
 	font-style: normal;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	display: flex;
-	justify-content: space-between;
 }
 
-.nav-address:focus,
-.nav-address:hover,
-.nav-address:active {
+.address-link:focus,
+.address-link:hover,
+.address-link:active {
 	text-decoration: none;
 	color: var(--ocean);
 }
@@ -195,6 +197,7 @@ a .nav-link,
 .logo-footer {
 	display: inline-block;
 	margin-bottom: 16px;
+	text-decoration: none;
 }
 /* Buttons */
 
@@ -367,10 +370,4 @@ a .nav-link,
 
 .sec-padding {
 	padding: 120px 0;
-}
-
-.address {
-	display: flex;
-	flex-direction: row;
-	gap: 40px;
 }
