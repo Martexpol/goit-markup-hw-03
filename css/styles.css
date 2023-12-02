@@ -48,10 +48,12 @@ img {
 .footer {
 	background-color: var(--navy-blue);
 	color: var(--cloud);
+	padding: 100px 0;
 }
 
 .footer-text {
 	color: var(--cloud);
+	max-width: 264px;
 }
 
 .header-one {
