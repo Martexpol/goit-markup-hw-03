@@ -252,6 +252,7 @@ a .nav-link,
 	margin: 12px;
 	height: 48px;
 	border-radius: 4px;
+	padding: 12px 24px;
 }
 
 .menu-button:focus,
@@ -259,6 +260,7 @@ a .nav-link,
 .menu-button:active {
 	background-color: var(--ocean);
 	color: white;
+	border: 1px solid transparent;
 }
 
 /* backgrounds */
