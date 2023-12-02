@@ -49,6 +49,7 @@ img {
 	background-color: var(--navy-blue);
 	color: var(--cloud);
 	padding: 100px 0;
+	justify-content: left;
 }
 
 .footer-text {
@@ -141,12 +142,12 @@ a .nav-link,
 	line-height: 1.5;
 }
 
-.address {
+.address-list {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 	gap: 40px;
 	list-style: none;
-	justify-content: space-between;
 }
 
 .address-link {
@@ -188,6 +189,15 @@ a .nav-link,
 
 .logo-light {
 	color: var(--cloud);
+	text-transform: uppercase;
+	font-family: "Raleway", sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	/* margin-right: 76px; */
+	margin-left: 0;
+	padding: 0;
 }
 
 .logo-dark {
