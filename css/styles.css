@@ -98,7 +98,6 @@ h1 {
 	margin-bottom: 72px;
 }
 
-.header-two-portfolio,
 .header-three-index {
 	font-weight: 500;
 	font-size: 20px;
@@ -107,6 +106,17 @@ h1 {
 	color: var(--navy-blue);
 	padding: 0 16px;
 	text-align: center;
+	margin-bottom: 8px;
+}
+
+.header-two-portfolio {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--navy-blue);
+	padding: 0 16px;
+	text-align: left;
 	margin-bottom: 8px;
 }
 
@@ -266,6 +276,7 @@ a .nav-link,
 	height: 48px;
 	border-radius: 4px;
 	padding: 12px 24px;
+	text-wrap: nowrap;
 }
 
 .menu-button:focus,
@@ -327,8 +338,6 @@ a .nav-link,
 }
 
 .portfolio-card {
-	margin: 12px;
-	text-align: left;
 	width: calc((100% - 48px) / 3);
 }
 
