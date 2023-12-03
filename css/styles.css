@@ -213,7 +213,6 @@ a .nav-link,
 	line-height: 1.17;
 	letter-spacing: 0.03em;
 	margin-right: 76px;
-	display: inline-block;
 }
 
 .logo-light {
@@ -236,6 +235,10 @@ a .nav-link,
 .logo-footer {
 	margin-bottom: 16px;
 	text-decoration: none;
+}
+
+.logo-display {
+	display: inline-block;
 }
 
 /* index */
