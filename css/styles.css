@@ -120,6 +120,13 @@ img {
 	align-content: center;
 }
 
+.container-footer {
+	width: 1158px;
+	padding: 120px 0;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
 .header-alignment {
 	display: flex;
 	flex-direction: row;
