@@ -114,6 +114,14 @@ img {
 .header-container {
 	border-bottom: 1px solid var(--cornflower);
 }
+.nav-container- {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.nav-box {
+	align-self: auto;
+}
 .footer {
 	background-color: var(--navy-blue);
 	color: var(--cloud);
@@ -205,6 +213,7 @@ a .nav-link,
 	line-height: 1.17;
 	letter-spacing: 0.03em;
 	margin-right: 76px;
+	display: inline-block;
 }
 
 .logo-light {
@@ -225,7 +234,6 @@ a .nav-link,
 }
 
 .logo-footer {
-	display: inline-block;
 	margin-bottom: 16px;
 	text-decoration: none;
 }
