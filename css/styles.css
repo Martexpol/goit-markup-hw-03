@@ -113,6 +113,11 @@ img {
 
 .header-container {
 	border-bottom: 1px solid var(--cornflower);
+	height: 72px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
 }
 .nav-container- {
 	display: flex;
@@ -120,13 +125,13 @@ img {
 	justify-content: space-between;
 }
 .nav-box {
-	align-self: auto;
+	align-self: center;
 }
 .footer {
 	background-color: var(--navy-blue);
 	color: var(--cloud);
 	padding: 100px 0;
-	justify-content: left;
+	/* justify-content: left; */
 }
 
 .footer-text {
@@ -180,6 +185,7 @@ a .nav-link,
 	justify-content: space-between;
 	gap: 40px;
 	list-style: none;
+	align-items: center;
 }
 
 .address-link {
