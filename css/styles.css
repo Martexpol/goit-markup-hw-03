@@ -119,6 +119,16 @@ img {
 	justify-content: space-between;
 	align-content: center;
 }
+
+.header-alignment {
+	display: flex;
+	flex-direction: row;
+	gap: 332px;
+}
+.header-li {
+	padding: 24px 0;
+}
+
 .nav-container- {
 	display: flex;
 	flex-direction: row;
@@ -197,6 +207,7 @@ a .nav-link,
 	list-style-type: none;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
+	align-self: center;
 }
 
 .address-link:focus,
