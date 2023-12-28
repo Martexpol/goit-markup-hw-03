@@ -337,6 +337,16 @@ a .nav-link,
 	text-align: center;
 }
 
+.header-four-index {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--navy-blue);
+	padding: 0 16px;
+	text-align: center;
+	margin-bottom: 8px;
+}
 /* portfolio  */
 .menu-button {
 	background-color: var(--cloud);
