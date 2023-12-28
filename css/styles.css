@@ -71,8 +71,6 @@ h1 {
 
 .container {
 	width: 1158px;
-
-	padding: 120px 0;
 	margin: 0 auto;
 	padding: 0 15px;
 }
@@ -204,6 +202,7 @@ a .nav-link,
 
 .address-link {
 	text-decoration: none;
+	font-style: normal;
 	color: var(--slate);
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
@@ -283,6 +282,8 @@ a .nav-link,
 	border-radius: 4px;
 	cursor: pointer;
 	background-color: var(--iris);
+	color: white;
+	margin-top: 48px;
 }
 .single-button:focus,
 .single-button:hover {
@@ -309,7 +310,9 @@ a .nav-link,
 .sec-four {
 	margin-bottom: 72px;
 }
-
+.sec3-padding {
+	padding: 0 0 120px 0;
+}
 .sec-three-card {
 	width: calc((100% - 48px) / 3);
 }
@@ -317,6 +320,8 @@ a .nav-link,
 .team-card {
 	background-color: white;
 	border-radius: 0px 0px 4px 4px;
+	box-shadow: 0 1px 6px 0 #2e2f4214, 0 1px 1px 0 #2e2f4229,
+		0 2px 1px 0 #2e2f4214;
 }
 
 .team-card-footer {
@@ -397,7 +402,7 @@ a .nav-link,
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	width: 586px;
+	/* width: 586px; */
 	gap: 24px;
 	margin-bottom: 72px;
 }
